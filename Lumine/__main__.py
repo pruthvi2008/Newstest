@@ -121,8 +121,8 @@ LUM_IMG= (
 Lumine_IMG = "https://telegra.ph/file/d9fd3e727627b10179308.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Lumine is hosted on its own server and require donations as of now but \
-You can donate to the original writer of the Base code, @Kaneki_op
+Anya is hosted on its own server and require donations as of now but \
+You can donate to the original writer of the Base code, @Ishikki_akabane
 There are two ways of supporting him; [Group](https://t.me/manhwarecommend)."""
 
 IMPORTED = {}
@@ -242,7 +242,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Add Zhongli to your group",
+                                text="Add Anya to your group",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
