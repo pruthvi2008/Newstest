@@ -75,7 +75,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is Anya Forger! 
-I am a Genshin Impact themed group management bot with many features
+Anya is an Anime themed group management bot with many features
 
 You can find my list of available commands with /help.
 """
