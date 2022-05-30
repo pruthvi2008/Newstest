@@ -30,7 +30,7 @@ class Config(object):
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgres://bgsoktfq:xZCgZwUdh3d3NTRgC3tzsaB6kn6ixwn-@abul.db.elephantsql.com/bgsoktfq"  # needed for any database modules
-    LOAD = []something
+    LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
     INFOPIC = True
