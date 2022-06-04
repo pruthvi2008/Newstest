@@ -19,12 +19,12 @@ class Config(object):
     TOKEN = "5528220235:AAEr6RgBYaB2sSmcXIazEPoXH1YB82h6vxY"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 5030730429  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "Ishikki_akabane"
-    SUPPORT_CHAT = "ruka_forsup"  # Your own group for support, do not add the @
+    SUPPORT_CHAT = "suppxd"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001750689442
+        -1001581549877
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001750689442
+        -1001581549877
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     ALLOW_CHATS = True
 
