@@ -35,7 +35,7 @@ class Config(object):
     WEBHOOK = False
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = "~Rr4d3pr99fDVOp9rcQKpZC4lr_AqucmZeQrZ5NM~2KBvJ8Dc1e4foVWQ7jw_faO"  # go to support.spamwat.ch to get key
+    SPAMWATCH_API = "dy9YPcbKyJ6IweLQhyllS6IdGfItDaAMh746uH7dDAXuTBdjyucnX2cGgFLUD~UD"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
     WEATHER_API = ""  # go to openweathermap.org/api to get key
 
