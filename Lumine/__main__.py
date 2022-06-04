@@ -115,7 +115,7 @@ LUM_IMG= (
           "https://te.legra.ph/file/ed7c44990f5a29f28cbae.mp4",
           )
 
-Lumine_IMG = "https://telegra.ph/file/d9fd3e727627b10179308.jpg"
+Lumine_IMG = "https://te.legra.ph/file/f0264aa005658f91c47dd.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Anya is hosted on its own server and require donations as of now but \
