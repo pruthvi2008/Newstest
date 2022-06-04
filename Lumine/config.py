@@ -29,7 +29,7 @@ class Config(object):
     ALLOW_CHATS = True
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "postgres://bgsoktfq:xZCgZwUdh3d3NTRgC3tzsaB6kn6ixwn-@abul.db.elephantsql.com/bgsoktfq"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://zhlhysxy:L_d73cQARRtSM7f6iIkeg2yPwtNbqHmK@tiny.db.elephantsql.com/zhlhysxy"  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
