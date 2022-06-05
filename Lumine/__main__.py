@@ -248,25 +248,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="Support Group",
-                                url=f"https://t.me/manhwarecommend",
-                            ),
-                        ],
-                        [
-                            InlineKeyboardButton(
-                                text="Getting started guide",
-                                url="https://zhongli-setup.readthedocs.io/en/latest/",
-                            )
-                        ],
-                        [
-                            InlineKeyboardButton(
-                                text="Website",
-                                url="https://zhongli-tele.netlify.app/",
-                            )
-                        ],
-                        [
-                            InlineKeyboardButton(
-                                text="Recommended Bot",
-                                url="https://t.me/nezuko13_bot",
+                                url="https://t.me/suppxd",
                             )
                         ],
                     ]
@@ -274,7 +256,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
           update.effective_message.reply_video(
-            random.choice(LUM_IMG), caption= "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            random.choice(LUM_IMG), caption= "Ruka Sarashina reporting sir!\nI'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -282,8 +264,8 @@ def start(update: Update, context: CallbackContext):
                 [
                   [ 
                        InlineKeyboardButton(
-                             text="Want Me?",
-                             url="https://t.me/WaifuGacha_bot/?start=Uo9fRdOYEY8mOpOrPcCqOJ5cOp5cDJWsPJ9cOJOsOpGmOcGoCJSrDo9z")
+                             text="Report bug?",
+                             url="https://t.me/suppxd")
                      ] 
                 ]
             ),
