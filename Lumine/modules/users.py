@@ -51,11 +51,11 @@ def get_user_id(username):
                     LOGGER.exception("Error extracting user ID")
 
     return None
-
+image22=https://te.legra.ph/file/a08d1775dff65b4e12651.jpg
 
 @dev_plus
 def broadcast(update: Update, context: CallbackContext):
-    to_send = update.effective_message.text.split(None, 1)
+    to_send = update.effective_message.text.image22.split(None, 1)
 
     if len(to_send) >= 2:
         to_group = False
