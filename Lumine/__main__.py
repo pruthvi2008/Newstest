@@ -74,17 +74,27 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Waku waku !! 
-Hi {} san, I'm Anya Forger! 
-Anya is an Anime themed group management bot with many features
+----------------------------------------------
+● ʜᴇʏ ᴛʜᴇʀᴇ! ɪ ᴀᴍ ᴏʙɪᴛᴏ ᴜᴄʜɪʜᴀ
+ ᴀ ꜱᴜᴘᴇʀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ●
 
-You can find my list of available commands with /help.
+《ʟᴇᴍᴍᴇ ᴜꜱᴇ ᴋᴀᴍᴜɪ ᴛᴏ ᴇɴᴛᴇʀ ʏᴏᴜʀ ᴄʜᴀᴛ》
+
+▪ᴄʟɪᴄᴋ /help ᴛᴏ ꜱᴇᴇ ᴍʏ ꜱᴇxʏ ꜰᴇᴀᴛᴜʀᴇꜱ
+
+ɪ'ᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴀᴅᴠᴀɴᴄᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ. ɪ ʜᴀᴠᴇ ʟᴏᴛs ᴏғ ʜᴀɴᴅʏ ғᴇᴀᴛᴜʀᴇs sᴜᴄʜ 
+
+▪ɪ ᴄᴀɴ ᴅᴏ ᴍᴀɴʏ ꜰᴇᴀᴛᴜʀᴇꜱ ʟɪᴋᴇ ᴋɪʟʟɪɴɢ ᴅᴏɢꜱ (ʙᴀɴ)
+■ ꜰʟᴏᴏᴅ ᴄᴏɴᴛʀᴏʟ
+■ ꜰɪʟᴛᴇʀ ꜱʏꜱᴛᴇᴍ
+■ ᴀᴘᴘʀᴏᴠᴀʟꜱ ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ.
+-----------------------------------------------
 """
 
 HELP_STRINGS = """
 Hoi! My name is *{}*.
-Anya is a modular group management bot and help admins to manage their groups. Have a look at the following for an idea of some of \
-the things Anya can help you with.
+Obito uchiha is a modular group management bot and help admins to manage their groups. Have a look at the following for an idea of some of \
+the things obiti can help you with.
 
 *Main* commands available:
  • /help: PM's you this message.
