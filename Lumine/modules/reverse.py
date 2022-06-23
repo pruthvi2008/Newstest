@@ -85,7 +85,8 @@ def reverse(update: Update, context: CallbackContext):
             return
     else:
         msg.reply_markdown(
-            "Please reply to a sticker, or an image to search it!\nDo you know that you can search an image with a link too? `/reverse [picturelink] <amount>`."
+            "Reply to a sticker or image dont u know how to search,fool!
+!\nDo you know that you can search an image with a link too? `/reverse [picturelink] <amount>`."
         )
         return
 
@@ -101,7 +102,8 @@ def reverse(update: Update, context: CallbackContext):
         if response != 400:
             xx = bot.send_message(
                 chat_id,
-                "Image was successfully uploaded to Google."
+                "Image was successfully uploaded to Google
+Please calm your horse."
                 "\nParsing it, please wait.",
                 reply_to_message_id=rtmid,
             )
