@@ -92,7 +92,7 @@ Type /help to see my sexy features
 
 HELP_STRINGS = """
 Gojo satoru is a advanced group management bot and help admins to manage their groups and keep curses away. Have a look at the following for an idea of some of \
-the things obiti can help you with.
+the things gojo satoru can help you with.
 
 *Main* commands available:
  • /help: PM's you this message.
