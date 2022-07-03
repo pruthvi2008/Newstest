@@ -122,7 +122,7 @@ LUM_IMG= (
           "https://te.legra.ph/file/292ca99301a9ffd2f3dd9.mp4",
           )
 
-Lumine_IMG = "https://te.legra.ph/file/f0264aa005658f91c47dd.jpg"
+Lumine_IMG = "https://te.legra.ph/file/53c9ad02dcf2feec00446.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Gojo is hosted on its own server and require donations as of now but \
