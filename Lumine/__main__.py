@@ -73,27 +73,25 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """
-----------------------------------------------
-● ʜᴇʏ ᴛʜᴇʀᴇ! ɪ ᴀᴍ ᴏʙɪᴛᴏ ᴜᴄʜɪʜᴀ
- ᴀ ꜱᴜᴘᴇʀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ●
+PM_START_TEXT """ 
+⊰᯽⊱┈─╌❊ - ❊╌─┈⊰᯽⊱
+ʜᴇʟʟᴏ ᴛʜᴇʀᴇ! ɢᴏᴊᴏ sᴀᴛᴏʀᴜ ʜᴇʀᴇ! ɪ ᴀᴍ ᴀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ✨
+⊰᯽⊱┈─╌❊ - ❊╌─┈⊰᯽⊱
 
-《ʟᴇᴍᴍᴇ ᴜꜱᴇ ᴋᴀᴍᴜɪ ᴛᴏ ᴇɴᴛᴇʀ ʏᴏᴜʀ ᴄʜᴀᴛ》
+ɪ ᴄᴀɴ ᴋᴇᴇᴘ ʏᴏᴜʀ ɢᴄ sᴀғᴇ ғʀᴏᴍ ᴄᴜʀsᴇs ʙʏ :
+❍ ғʟᴏᴏᴅ ᴄᴏɴᴛʀᴏʟ.
+❍ ᴀᴘᴘʀᴏᴠᴀʟs ᴀɴᴅ ᴅɪsᴀᴘᴘʀᴏᴠᴀʟs.
+❍ ᴋɪʟʟɪɴɢ ᴄᴜʀsᴇs ʙʏ ᴍʏ ʙᴀɴ/ᴍᴜᴛᴇ/ᴡᴀʀɴ ᴘᴏᴡᴇʀs.
+❍ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɴᴏᴡ!
+━━━•❅•°•❈ - •°•❅•━━━
 
-▪ᴄʟɪᴄᴋ /help ᴛᴏ ꜱᴇᴇ ᴍʏ ꜱᴇxʏ ꜰᴇᴀᴛᴜʀᴇꜱ
+𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝚃𝙾 𝚂𝙰𝚅𝙴 𝚈𝙾𝚄 𝙰𝙻𝙻 𝙵𝚁𝙾𝙼 𝙱𝙰𝙳 𝙲𝚄𝚁𝚂𝙴𝚂 𝙰𝙽𝙳 𝚂𝙴𝙴 𝙼𝚈 100% 𝙿𝙾𝚆𝙴𝚁
 
-ɪ'ᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴀᴅᴠᴀɴᴄᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ. ɪ ʜᴀᴠᴇ ʟᴏᴛs ᴏғ ʜᴀɴᴅʏ ғᴇᴀᴛᴜʀᴇs sᴜᴄʜ 
-
-▪ɪ ᴄᴀɴ ᴅᴏ ᴍᴀɴʏ ꜰᴇᴀᴛᴜʀᴇꜱ ʟɪᴋᴇ ᴋɪʟʟɪɴɢ ᴅᴏɢꜱ (ʙᴀɴ)
-■ ꜰʟᴏᴏᴅ ᴄᴏɴᴛʀᴏʟ
-■ ꜰɪʟᴛᴇʀ ꜱʏꜱᴛᴇᴍ
-■ ᴀᴘᴘʀᴏᴠᴀʟꜱ ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ.
------------------------------------------------
+Type /help to see my sexy features
 """
 
 HELP_STRINGS = """
-Hoi! My name is *{}*.
-Obito uchiha is a modular group management bot and help admins to manage their groups. Have a look at the following for an idea of some of \
+Gojo satoru is a advanced group management bot and help admins to manage their groups and keep curses away. Have a look at the following for an idea of some of \
 the things obiti can help you with.
 
 *Main* commands available:
@@ -111,12 +109,11 @@ And the following:
 )
 
 HELP_IMG = (
-    "https://te.legra.ph/file/9b3f9cff62cda296279cc.mp4",
-    "https://te.legra.ph/file/3c0d8ff793282f2baab52.mp4",
-    "https://te.legra.ph/file/bc228cffc7a7f49f99b6b.mp4",
-    "https://te.legra.ph/file/497272cee475c5530c437.mp4",
-    "https://te.legra.ph/file/29b7ec90c705afe86b1a3.mp4",
-    "https://te.legra.ph/file/4f427193b86182fa07678.mp4",
+    "https://te.legra.ph/file/292ca99301a9ffd2f3dd9.mp4",
+    "https://te.legra.ph/file/447e1ab9b1829c4b34036.mp4",
+    "https://te.legra.ph/file/307f291de0f8df8ed1183.mp4",
+    "https://te.legra.ph/file/74a9ea4c1ee12fb1fcfe2.mp4",
+    "https://te.legra.ph/file/edab17ce66a544ee97a80.mp4",
 )
 
 LUM_IMG= (
@@ -128,8 +125,8 @@ LUM_IMG= (
 Lumine_IMG = "https://te.legra.ph/file/f0264aa005658f91c47dd.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Anya is hosted on its own server and require donations as of now but \
-You can donate to the original writer of the Base code, @Ishikki_akabane
+Gojo is hosted on its own server and require donations as of now but \
+You can donate to the original writer of the Base code, @doujin_hunter
 There are two ways of supporting him; [Group](https://t.me/manhwarecommend)."""
 
 IMPORTED = {}
