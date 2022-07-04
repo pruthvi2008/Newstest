@@ -85,7 +85,7 @@ def reverse(update: Update, context: CallbackContext):
             return
     else:
         msg.reply_markdown(
-            "Please reply to a sticker, or an image to search it!\nDo you know that you can search an image with a link too? `/reverse [picturelink] <amount>`."
+            "Uff...you have to reply to sticker or an image to search it..yowai mo`/reverse [picturelink] <amount>`."
         )
         return
 
@@ -101,7 +101,7 @@ def reverse(update: Update, context: CallbackContext):
         if response != 400:
             xx = bot.send_message(
                 chat_id,
-                "Image was successfully uploaded to Google."
+                "Image was successfully uploaded to jujutsu base."
                 "\nParsing it, please wait.",
                 reply_to_message_id=rtmid,
             )
@@ -217,11 +217,11 @@ def deletion(update: Update, context: CallbackContext, delmsg):
 
 
 REVERSE_HANDLER = DisableAbleCommandHandler(
-    ["reverse","grs"], reverse, admin_ok=True, run_async=True
+    ["reverse","grs","pp","p"], reverse, admin_ok=True, run_async=True
 )
 
 dispatcher.add_handler(REVERSE_HANDLER)
 
 __mod_name__ = "Reverse"
-__command_list__ = ["reverse", "grs"]
+__command_list__ = ["reverse", "grs","pp","p"]
 __handlers__ = [REVERSE_HANDLER]
