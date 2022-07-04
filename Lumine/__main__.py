@@ -246,7 +246,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Add Anya to your group",
+                                text="💜 add gojo to your group 💜",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -263,7 +263,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
           update.effective_message.reply_video(
-            random.choice(LUM_IMG), caption= "Ruka Sarashina reporting sir!\nI'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            random.choice(LUM_IMG), caption= " gojo satoru reporting master!\nI'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -272,7 +272,7 @@ def start(update: Update, context: CallbackContext):
                   [ 
                        InlineKeyboardButton(
                              text="Report bug?",
-                             url="https://t.me/suppxd")
+                             url="https://t.me/jujutsu_kaisen_sup")
                      ] 
                 ]
             ),
@@ -387,7 +387,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Help",
+                                text="《Help》",
                                 url="t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
@@ -398,12 +398,12 @@ def get_help(update: Update, context: CallbackContext):
             )
             return
         update.effective_message.reply_video(
-            random.choice(HELP_IMG), caption= "Contact me in PM to get the list of possible commands.✨",
+            random.choice(HELP_IMG), caption= "Contact me in PM to see my all sexy commands.✨",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="Help",
+                            text="《Help》",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ]
@@ -496,7 +496,7 @@ def settings_button(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Back",
+                                text="《back》",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
@@ -571,7 +571,7 @@ def get_settings(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Settings",
+                                text="《Settings》",
                                 url="t.me/{}?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
